@@ -13,8 +13,12 @@
  /*---------portfolio-first section  ------------*/
  .portfolio-first{
     width: 100%;
+    height: 100vh;
     display: flex;
     padding: 1% 5% 0%;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
 
  }
 
@@ -27,6 +31,7 @@
  .portfolio-first .description h2{
     font-size: 40px;
     font-weight: 900;
+    margin-bottom: 1rem;
  }
  .portfolio-first .description h2 span{
     color: rgb(255, 171, 44);
@@ -35,6 +40,12 @@
  .portfolio-first .description h5{
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: .7rem;
+ }
+ .portfolio-first .description p{
+   margin-bottom: 1.5rem;
+   line-height: 1.5;
+   font-size: 20px;
  }
   .portfolio-first .description a{
     display:inline-block;
@@ -44,6 +55,7 @@
     text-decoration: none;
     color: #ffffff;
     font-size: 17px;
+    font-weight: 600;
     border-radius: 10px;
 
   }
@@ -55,5 +67,14 @@
     width: 100%;
     height: 100%;
     margin-left: 60px;
+  }
+  /*----.portfolio-second section-----*/
+  .portfolio-second{
+   background-image: url(image/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+  }
+  .portfolio-second .image{
+   margin-top: 5%;
   }
   
