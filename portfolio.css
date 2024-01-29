@@ -77,4 +77,57 @@
   .portfolio-second .image{
    margin-top: 5%;
   }
+
+  /*-----portfolio-third section-----*/
+  .portfolio-third{
+   width: 100%;
+   height: 100vh;
+   padding: 0 5% 3%;
+   background-image: url(image/exp-bg.png);
+   background-repeat: no-repeat;
+  }
+  .portfolio-third > h2{
+   font-size: 40px;
+   font-weight: 900;
+   margin-bottom: 3rem;
+   text-align: center;
+  }
+  .exp-main{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  }
+  .exp-main-1{
+   width: 40%;
+   padding: 25px 5px 80px 20px;
+   box-shadow: 3px 3px 18px 1px rgb(136, 135, 135) ;
+   border-left: 10px solid ;
+   border-radius: 10px;
+   border-image: linear-gradient(to bottom, blue, cyan);
+   border-image-slice: 1;
+   
+  }
+  .exp-main-1 h2{
+   font-size: 30px;
+   font-weight: 900;
+   margin-bottom: 2rem;
+  }
+  .exp-main-1 h5{
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 1.5rem;
+   color: rgb(255, 171, 44);
+  }
+  .exp-main-1 P{
+   font-size: 15PX;
+   font-weight: 600;
+   word-spacing: 2PX;
+   line-height: 1.5;
+   color:rgb(136, 135, 135);
+  }
+  footer p {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 600;
+  }
   
